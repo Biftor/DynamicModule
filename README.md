@@ -1,14 +1,13 @@
 # DynamicModule
-[StackOverFlow Question](https://stackoverflow.com/questions/64969917/android-dynamic-on-demand-feature-problem-with-corelibrarydesugaringenabled "StackOverFlow")
-
+[StackOverFlow](https://stackoverflow.com/questions/64969917/android-dynamic-on-demand-feature-problem-with-corelibrarydesugaringenabled "StackOverFlow")
+[Google issue](https://github.com/android/app-bundle-samples/issues/94 "Google issue")
 
 There is an issue with dynamic features when using `coreLibraryDesugaringEnabled true` 
 
 Steps to reproduce the issue:
 
 1. set `coreLibraryDesugaringEnabled true` 
-
-3. try install apks from bundle installation options (or generate apks from bundle)
+2. try install apks from bundle installation options (or generate apks from bundle)
 
 stacktrace:
 ```
